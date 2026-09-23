@@ -1,701 +1,700 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Teknic Euchner</title>
 
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-
-    <!-- =========================
-         HERO SECTION
-    ========================== -->
-
-    <section class="hero">
-
-        <!-- Background Video -->
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-heading">
         <video
-            class="hero-video"
-            autoplay
-            muted
-            loop
-            playsinline
-            preload="auto">
-            
-            <source src="./assests/hero.mp4" type="video/mp4">
-
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          aria-hidden="true"
+        >
+          <source src="./assests/hero.mp4" type="video/mp4" />
         </video>
 
-
-        <!-- Dark Overlay -->
-        <div class="overlay"></div>
-
-
-        <!-- =========================
-             NAVBAR
-        ========================== -->
+        <div class="overlay" aria-hidden="true"></div>
 
         <header class="navbar">
+          <div class="logo" aria-label="Teknic Euchner">
+            <span class="teknic">TEKNIC</span>
+            <span class="euchner">EUCHNER</span>
+          </div>
 
-            <!-- Logo -->
-            <div class="logo">
-
-                <span class="teknic">
-                    TEKNIC
-                </span>
-
-                <span class="euchner">
-                    EUCHNER
-                </span>
-
-            </div>
-
-
-            <!-- Navigation -->
-            <nav class="nav-links">
-
-                <a href="#">
-                    HOME
-                </a>
-
-                <a href="#" class="about">
-                    ABOUT
-                    <span>›</span>
-                </a>
-
-                <a href="#">
-                    PRODUCTS
-                </a>
-
-                <a href="#">
-                    DEALERS
-                </a>
-
-                <a href="#">
-                    EVENTS
-                </a>
-
-                <a href="#">
-                    CONTACT
-                </a>
-
-            </nav>
-
-
-            <!-- Get In Touch -->
-            <a href="#" class="contact-btn">
-                GET IN TOUCH
-            </a>
-
+          <nav aria-label="Main navigation">
+            <ul class="nav-links">
+              <li><a href="#">HOME</a></li>
+              <li>
+                <a href="#about" class="about-btn">ABOUT <span class="arrow">›</span></a>
+              </li>
+              <li><a href="#products">PRODUCTS</a></li>
+              <li><a href="#deal">DEALERS</a></li>
+              <li><a href="#">EVENTS</a></li>
+              <li><a href="#contact123" >CONTACT</a></li>
+            </ul>
+          </nav>
+           
+                <a href="#" class="contact-btn">GET IN TOUCH</a>
+               
+             
         </header>
 
-
-        <!-- =========================
-             HERO CONTENT
-        ========================== -->
-
         <div class="hero-content">
+          <div class="hero-left">
+            <h1 id="hero-heading">
+              Precision That Keeps<br />Industry Moving.
+            </h1>
+           
+            <p class="description">
+              Engineered sensing, switching and control solutions for machines
+              that demand reliability.
+            </p>
 
+            <ul class="hero-buttons">
+              <li><a href="#" class="expert-btn">TALK TO AN EXPERT</a></li>
+              <li><a href="#" class="products-btn">EXPLORE OUR PRODUCTS</a></li>
+            </ul>
+          </div>
 
-            <!-- LEFT CONTENT -->
-
-            <div class="hero-left">
-
-                <h1>
-                    Precision That Keeps<br>
-                    Industry Moving.
-                </h1>
-
-
-                <p class="description">
-                    Engineered sensing, switching and control solutions for
-                    machines that demand reliability.
-                </p>
-
-
-                <!-- Hero Buttons -->
-
-                <div class="hero-buttons">
-
-                    <a href="#" class="expert-btn">
-                        TALK TO AN EXPERT
-                    </a>
-
-
-                    <a href="#" class="products-btn">
-                        EXPLORE OUR PRODUCTS
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- RIGHT CONTENT -->
-
-            <div class="hero-right">
-
-                <p>
-                    For over three decades, Tecnic Euchner has been
-                    developing and manufacturing industrial control gear
-                    designed for precision, durability and dependable
-                    performance.
-                </p>
-
-            </div>
-
+          <aside class="hero-right">
+              <div class="red-line" aria-hidden="true"></div>
+            <p>
+              For over three decades, Tecnic Euchner has been developing and
+              manufacturing industrial control gear designed for precision,
+              durability and dependable performance.
+            </p>
+          </aside>
         </div>
+      </section>
 
-    </section>
-
-
-
-
-
-    <section class="about-section">
-
+      <section class="about-section" aria-labelledby="about-heading" id="about">
         <div class="about-container">
-
-
-            <!-- LEFT SIDE -->
-
-            <div class="about-left">
-
-                <h2>
-                    Engineering You Can Rely On.<br>
-                    Experience You Can Trust.
-                </h2>
-
-
-                <a href="#" class="discover-btn">
-                    DISCOVER TEKNIC EUCHNER
-                </a>
-
-            </div>
-
-
-         
-
-            <div class="about-right">
-
-                <p>
-                    Since 1989, Tecnic Euchner has been building its
-                    expertise around one simple principle: industrial
-                    components should perform reliably, every time they
-                    are called upon.
-                </p>
-
-
-                <p>
-                    With the engineering know-how of Euchner Germany and
-                    decades of manufacturing experience in India, we develop
-                    control gear and sensing solutions for demanding
-                    industrial applications.
-                </p>
-
-
-                <p>
-                    From machine positioning and object detection to
-                    switching and safety-related applications, our products
-                    are built to deliver consistent performance where it
-                    matters most.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-<!-- =========================
-     ENGINEERING SECTION
-========================= -->
-
-<section class="engineering-section">
-
-    <div class="engineering-top">
-
-        <div class="engineering-title">
-            <h2>
-                Decades of Engineering.<br>
-                Built for Industry.
+          <div class="about-left">
+            <h2 id="about-heading">
+              Engineering You Can Rely On.<br />Experience You Can Trust.
             </h2>
-        </div>
+            <a href="#" class="discover-btn">DISCOVER TEKNIC EUCHNER</a>
+          </div>
 
-        <div class="engineering-description">
-
-            <div class="orange-line"></div>
-
+          <div class="about-right">
+              <div class="red-line" aria-hidden="true"></div>
             <p>
-                Numbers and claims should be updated with the company's
-                verified current figures before publishing.
+              Since 1989, Tecnic Euchner has been building its expertise around
+              one simple principle: industrial components should perform
+              reliably, every time they are called upon.
             </p>
+            <p>
+              With the engineering know-how of Euchner Germany and decades of
+              manufacturing experience in India, we develop control gear and
+              sensing solutions for demanding industrial applications.
+            </p>
+            <p>
+              From machine positioning and object detection to switching and
+              safety-related applications, our products are built to deliver
+              consistent performance where it matters most.
+            </p>
+          </div>
+        </div>
+      </section>
 
+      <section
+        class="engineering-section"
+        aria-labelledby="engineering-heading"
+      >
+        <div class="engineering-top">
+          <div class="engineering-title">
+            <h2 id="engineering-heading">
+              Decades of Engineering.<br />Built for Industry.
+            </h2>
+          </div>
+
+          <div class="engineering-description">
+            <div class="orange-line" aria-hidden="true"></div>
+            <p>
+              Numbers and claims should be updated with the company's verified
+              current figures before publishing.
+            </p>
+          </div>
         </div>
 
-    </div>
-
-
-    <!-- =========================
-         STATISTICS
-    ========================== -->
-
-    <div class="engineering-stats">
-
-        <!-- ITEM 1 -->
-
-        <div class="engineering-item">
-
+        <div class="engineering-stats">
+          <article class="engineering-item">
             <div class="corner corner-top-left"></div>
             <div class="corner corner-top-right"></div>
             <div class="corner corner-bottom-left"></div>
             <div class="corner corner-bottom-right"></div>
-
-            <div class="engineering-icon">
-                <svg viewBox="0 0 64 64">
-                    <circle cx="30" cy="20" r="9"></circle>
-
-                    <path d="M16 48c2-9 8-14 15-14s13 5 15 14"></path>
-
-                    <circle cx="47" cy="42" r="8"></circle>
-
-                    <path d="M47 29v5M47 50v5M34 42h5M55 42h5"></path>
-                </svg>
+            <div class="engineering-icon" aria-hidden="true">
+              <figure class="some">
+                <picture
+                  ><img
+                    src="./assests//35ff2b1d-b231-46dc-be45-5e4413762069.png"
+                    alt="35+ years experience icon"
+                /></picture>
+              </figure>
             </div>
-
             <h3>35+ Years</h3>
+            <p>Of industrial manufacturing<br />experience</p>
+          </article>
 
-            <p>
-                Of industrial manufacturing<br>
-                experience
-            </p>
-
-        </div>
-
-
-        <!-- ITEM 2 -->
-
-        <div class="engineering-item">
-
+          <article class="engineering-item">
             <div class="corner corner-top-left"></div>
             <div class="corner corner-top-right"></div>
             <div class="corner corner-bottom-left"></div>
             <div class="corner corner-bottom-right"></div>
-
-            <div class="engineering-icon">
-
-                <svg viewBox="0 0 64 64">
-
-                    <circle cx="22" cy="28" r="7"></circle>
-
-                    <circle cx="42" cy="28" r="7"></circle>
-
-                    <circle cx="32" cy="20" r="7"></circle>
-
-                    <path d="M10 50c1-8 5-13 12-13s11 5 12 13"></path>
-
-                    <path d="M30 50c1-8 5-13 12-13s11 5 12 13"></path>
-
-                    <path d="M21 45c1-8 5-13 11-13s10 5 11 13"></path>
-
-                    <path class="orange-icon" d="M32 5v10M27 10h10"></path>
-
-                </svg>
-
+            <div class="engineering-icon" aria-hidden="true">
+              <figure>
+                <picture
+                  ><img
+                    src="./assests/091c04ce-c6a4-467e-bc45-c940ab222fb4.png"
+                    alt="Company founding year icon"
+                /></picture>
+              </figure>
             </div>
-
             <h3>1989</h3>
+            <p>Year Tecnic Euchner<br />was established</p>
+          </article>
 
-            <p>
-                Year Tecnic Euchner<br>
-                was established
-            </p>
-
-        </div>
-
-
-        <!-- ITEM 3 -->
-
-        <div class="engineering-item">
-
+          <article class="engineering-item">
             <div class="corner corner-top-left"></div>
             <div class="corner corner-top-right"></div>
             <div class="corner corner-bottom-left"></div>
             <div class="corner corner-bottom-right"></div>
-
-            <div class="engineering-icon">
-
-                <svg viewBox="0 0 64 64">
-
-                    <path d="M12 20L32 10l20 10-20 10-20-10z"></path>
-
-                    <path d="M12 32l20 10 20-10"></path>
-
-                    <path d="M12 43l20 10 20-10"></path>
-
-                </svg>
-
+            <div class="engineering-icon" aria-hidden="true">
+              <figure>
+                <picture
+                  ><img
+                    src="./assests/22d4cddb-ab1f-45a9-b03e-89f08bac141b.png"
+                    alt="Product categories icon"
+                /></picture>
+              </figure>
             </div>
+            <h3>Multiple Product<br />Categories</h3>
+            <p>Solutions across sensing,<br />switching and machine control</p>
+          </article>
 
-            <h3>
-                Multiple Product<br>
-                Categories
-            </h3>
-
-            <p>
-                Solutions across sensing,<br>
-                switching and machine control
-            </p>
-
-        </div>
-
-
-        <!-- ITEM 4 -->
-
-        <div class="engineering-item">
-
+          <article class="engineering-item">
             <div class="corner corner-top-left"></div>
             <div class="corner corner-top-right"></div>
             <div class="corner corner-bottom-left"></div>
             <div class="corner corner-bottom-right"></div>
-
-            <div class="engineering-icon">
-
-                <svg viewBox="0 0 64 64">
-
-                    <rect x="27" y="8" width="12" height="12" rx="2"></rect>
-
-                    <rect x="8" y="42" width="14" height="12" rx="2"></rect>
-
-                    <rect x="42" y="42" width="14" height="12" rx="2"></rect>
-
-                    <path d="M33 20v12M15 42V34h36v8M49 34V20"></path>
-
-                </svg>
-
+            <div class="engineering-icon" aria-hidden="true">
+              <figure>
+                <picture
+                  ><img
+                    src="./assests/048c5395-bcf2-48bc-8ebe-c73f72513529.png"
+                    alt="Pan-India dealer network icon"
+                /></picture>
+              </figure>
             </div>
-
-            <h3>
-                Pan-India<br>
-                Dealer Network
-            </h3>
-
-            <p>
-                Product access and support<br>
-                across India
-            </p>
-
+            <h3>Pan-India<br />Dealer Network</h3>
+            <p>Product access and support<br />across India</p>
+          </article>
         </div>
+      </section>
 
-    </div>
-
-</section>
-
-   <!-- =========================
-     PRODUCTS SECTION
-========================= -->
-
-
-
-
-   <!-- =========================
-     PRODUCTS SECTION
-========================= -->
-
-<section class="products-section">
-
-    <div class="products-top">
-
-        <div class="products-title">
-            <h2>
-                The Right Control Gear<br>
-                for Every Application.
+      <section class="products-section" aria-labelledby="products-heading" id="products">
+        <div class="products-top">
+          <div class="products-title">
+            <h2 id="products-heading">
+              The Right Control Gear<br />for Every Application.
             </h2>
-        </div>
-
-        <div class="products-description">
+          </div>
+          
+          <div class="products-description">
+            <span class="line"></span>
+              <div class="red-line" aria-hidden="true"></div>
             <p>
-                Industrial machines depend on components that can sense movement,
-                detect position, control processes and respond when it matters.
-                Teknic Euchner offers a focused range of industrial products
-                engineered for reliable operation across demanding applications.
+              Industrial machines depend on components that can sense movement,
+              detect position, control processes and respond when it matters.
+              Teknic Euchner offers a focused range of industrial products
+              engineered for reliable operation across demanding applications.
             </p>
+          </div>
         </div>
 
-    </div>
-
-
-    <!-- ROW 1 -->
-    <div class="products-grid">
-
-        <!-- CARD 1 -->
-        <div class="product-card">
-
+        <div class="products-grid">
+          <article class="product-card">
             <span class="product-label">Inductive Proximity Switches</span>
-
             <div class="product-image">
-                <div class="corner corner-top-left"></div>
-                <div class="corner corner-top-right"></div>
-                <div class="corner corner-bottom-left"></div>
-                <div class="corner corner-bottom-right"></div>
-
-                <img src="./assests/electronic.png" alt="Inductive Proximity Switches">
+              <div class="corner corner-top-left"></div>
+              <div class="corner corner-top-right"></div>
+              <div class="corner corner-bottom-left"></div>
+              <div class="corner corner-bottom-right"></div>
+              <img
+                src="./assests/electronic.png"
+                alt="Inductive Proximity Switches"
+              />
             </div>
-
             <h3>Reliable non-contact detection for automated machines.</h3>
-
             <p>
-                Designed for control and positioning applications, our
-                inductive proximity switches deliver precise object
-                detection without physical contact.
+              Designed for control and positioning applications, our inductive
+              proximity switches deliver precise object detection without
+              physical contact.
             </p>
-
             <a href="#" class="explore-btn">EXPLORE PROXIMITY SWITCHES</a>
-        </div>
+          </article>
 
-        <!-- CARD 2 -->
-        <div class="product-card">
-
+          <article class="product-card">
             <span class="product-label">Single Limit Switches</span>
-
             <div class="product-image">
-                <div class="corner corner-top-left"></div>
-                <div class="corner corner-top-right"></div>
-                <div class="corner corner-bottom-left"></div>
-                <div class="corner corner-bottom-right"></div>
-
-                <img src="./assests/6d7dc553393a2e6410baee7271be9bb37d630163.png" alt="Single Limit Switches">
+              <div class="corner corner-top-left"></div>
+              <div class="corner corner-top-right"></div>
+              <div class="corner corner-bottom-left"></div>
+              <div class="corner corner-bottom-right"></div>
+              <img
+                src="./assests/6d7dc553393a2e6410baee7271be9bb37d630163.png"
+                alt="Single Limit Switches"
+              />
             </div>
-
             <h3>Precision switching for dependable machine control.</h3>
-
             <p>
-                Robust construction, corrosion-resistant materials and
-                high protection ratings make our limit switches suitable
-                for demanding industrial environments.
+              Robust construction, corrosion-resistant materials and high
+              protection ratings make our limit switches suitable for demanding
+              industrial environments.
             </p>
-
             <a href="#" class="explore-btn">EXPLORE LIMIT SWITCHES</a>
-        </div>
+          </article>
 
-        <!-- CARD 3 -->
-        <div class="product-card">
-
-            <span class="product-label">Precision Single &amp; Multiple Limit Switches</span>
-
-            <div class="product-image">
-                <div class="corner corner-top-left"></div>
-                <div class="corner corner-top-right"></div>
-                <div class="corner corner-bottom-left"></div>
-                <div class="corner corner-bottom-right"></div>
-
-                <img src="./assests/f56a0c69ee35a8e31138c125cd0f1bc9c349d951.png" alt="Precision Limit Switches">
+          <article class="product-card">
+            <span class="product-label"
+              >Precision Single &amp; Multiple Limit Switches</span
+            >
+            <div class="product-image" >
+              <div class="corner corner-top-left"></div>
+              <div class="corner corner-top-right"></div>
+              <div class="corner corner-bottom-left"></div>
+              <div class="corner corner-bottom-right"></div>
+              <img
+                src="./assests/f56a0c69ee35a8e31138c125cd0f1bc9c349d951.png"
+                alt="Precision Limit Switches"
+              />
             </div>
-
-            <h3>Engineered for accurate machine positioning.</h3>
-
+            <h3>Engineered for accurate machine <br>positioning. </h3>
             <p>
-                Developed with decades of machine-tool expertise, these
-                solutions provide reliable control and positioning for
-                industrial machinery and equipment.
+              Developed with decades of machine-tool expertise, these solutions
+              provide reliable control and positioning for industrial machinery
+              and equipment.
             </p>
-
             <a href="#" class="explore-btn">EXPLORE PRECISION LIMIT SWITCHES</a>
+          </article>
         </div>
 
-    </div>
-
-
-    <!-- ROW 2 -->
-    <div class="products-grid">
-
-        <!-- CARD 4 -->
-        <div class="product-card">
-
+        <div class="products-grid">
+          <article class="product-card">
             <span class="product-label">Photoelectric Sensors</span>
-
             <div class="product-image">
-                <div class="corner corner-top-left"></div>
-                <div class="corner corner-top-right"></div>
-                <div class="corner corner-bottom-left"></div>
-                <div class="corner corner-bottom-right"></div>
-
-                <img src="./assests/bf8d94a8b1d1c2d8990a7a55c7fe470779a03ee3.png" alt="Photoelectric Sensors">
+              <div class="corner corner-top-left"></div>
+              <div class="corner corner-top-right"></div>
+              <div class="corner corner-bottom-left"></div>
+              <div class="corner corner-bottom-right"></div>
+              <img
+                src="./assests/bf8d94a8b1d1c2d8990a7a55c7fe470779a03ee3.png"
+                alt="Photoelectric Sensors"
+              />
             </div>
-
             <h3>Detect with precision. Respond with confidence.</h3>
-
             <p>
-                Our photoelectric sensors use light-based detection to
-                support reliable object sensing across a range of
-                industrial applications.
+              Our photoelectric sensors use light-based detection to support
+              reliable object sensing across a range of industrial applications.
             </p>
-
             <a href="#" class="explore-btn">EXPLORE PHOTOELECTRIC SENSORS</a>
-        </div>
+          </article>
 
-        <!-- CARD 5 -->
-        <div class="product-card">
-
+          <article class="product-card">
             <span class="product-label">NK Limit Switches</span>
-
             <div class="product-image">
-                <div class="corner corner-top-left"></div>
-                <div class="corner corner-top-right"></div>
-                <div class="corner corner-bottom-left"></div>
-                <div class="corner corner-bottom-right"></div>
-
-                <img src="./assests/f9914eedd4210d176a07ebac69483f5342a1fd33.png" alt="NK Limit Switches">
+              <div class="corner corner-top-left"></div>
+              <div class="corner corner-top-right"></div>
+              <div class="corner corner-bottom-left"></div>
+              <div class="corner corner-bottom-right"></div>
+              <img
+                src="./assests/f9914eedd4210d176a07ebac69483f5342a1fd33.png"
+                alt="NK Limit Switches"
+              />
             </div>
-
             <h3>Compact. Robust. Built for dependable switching.</h3>
-
             <p>
-                Designed to meet demanding industrial requirements, NK
-                limit switches offer flexible actuation, robust
-                construction and options suited to safety-related
-                applications.
+              Designed to meet demanding industrial requirements, NK limit
+              switches offer flexible actuation, robust construction and options
+              suited to safety-related applications.
             </p>
-
             <a href="#" class="explore-btn">EXPLORE NK LIMIT SWITCHES</a>
-        </div>
+          </article>
 
-        <!-- CARD 6 -->
-        <div class="product-card">
-
+          <article class="product-card">
             <span class="product-label">Cable Connectors</span>
-
             <div class="product-image">
-                <div class="corner corner-top-left"></div>
-                <div class="corner corner-top-right"></div>
-                <div class="corner corner-bottom-left"></div>
-                <div class="corner corner-bottom-right"></div>
-
-                <img src="./assests/d69973405a8ec54e89d37dfdbb77f77d5c9cb652.png" alt="Cable Connectors">
+              <div class="corner corner-top-left"></div>
+              <div class="corner corner-top-right"></div>
+              <div class="corner corner-bottom-left"></div>
+              <div class="corner corner-bottom-right"></div>
+              <img
+                src="./assests/d69973405a8ec54e89d37dfdbb77f77d5c9cb652.png"
+                alt="Cable Connectors"
+              />
             </div>
-
-            <h3>Reliable non-contact detection for automated machines.</h3>
-
+            <h3>
+              Reliable connectivity for demanding industrial applications.
+            </h3>
             <p>
-                Our sensor and actuator cables are designed for demanding
-                applications, including energy-chain environments, with
-                options suited to different installation requirements.
+              Our sensor and actuator cables are designed for demanding
+              applications, including energy-chain environments, with options
+              suited to different installation requirements.
             </p>
-
             <a href="#" class="explore-btn">EXPLORE CABLE CONNECTORS</a>
+          </article>
         </div>
+      </section>
 
-    </div>
+      <section class="why-section" aria-labelledby="why-heading">
+        <h2 class="why-heading" id="why-heading">Why Teknic Euchner</h2>
 
-</section>
-<!-- Why Teknic Euchner Section -->
-<section class="why-section">
-
-    <h2 class="why-heading">Why Teknic Euchner</h2>
-
-    <div class="why-cards">
-
-        <div class="card">
+        <div class="why-cards">
+          <article class="card">
             <h3>Built Around What Industry Needs.</h3>
-            <p>Industrial environments leave little room for uncertainty. Our approach combines engineering expertise and manufacturing experience.</p>
-            <div class="icon-circle">⚙</div>
-        </div>
+            <p>
+              Industrial environments leave little room for uncertainty. Our
+              approach combines engineering expertise and manufacturing
+              experience.
+            </p>
+            <div class="icon-circle" aria-hidden="true">
+                <img src="./assests/Group 1.png" alt="">
+            </div>
+          </article>
 
-        <div class="card">
+          <article class="card">
             <h3>Engineering Expertise</h3>
-            <p>Built on decades of experience and strengthened by Euchner Germany's engineering heritage.</p>
-            <div class="icon-circle">⚙</div>
-        </div>
+            <p>
+              Built on decades of experience and strengthened by Euchner
+              Germany's engineering heritage.
+            </p>
+            <div class="icon-circle" aria-hidden="true">
+                <img src="./assests/Group 1.png" alt="">
+            </div>
+          </article>
 
-        <div class="card">
+          <article class="card">
             <h3>Reliable Performance</h3>
-            <p>Products designed to deliver consistent operation in demanding industrial environments.</p>
-            <div class="icon-circle">⚙</div>
-        </div>
+            <p>
+              Products designed to deliver consistent operation in demanding
+              industrial environments.
+            </p>
+            <div class="icon-circle" aria-hidden="true">
+                <img src="./assests/Group 1.png" alt="">
+            </div>
+          </article>
 
-        <div class="card">
+          <article class="card">
             <h3>Robust Construction</h3>
-            <p>Quality materials, precision manufacturing and application-focused design for long-term performance.</p>
-            <div class="icon-circle">⚙</div>
-        </div>
+            <p>
+              Quality materials, precision manufacturing and application-focused
+              design for long-term performance.
+            </p>
+            <div class="icon-circle" aria-hidden="true">
+                <img src="./assests/Group 1.png" alt="">
+            </div>
+          </article>
 
-        <div class="card">
+          <article class="card">
             <h3>Industry-Focused Solutions</h3>
-            <p>Products developed around the practical requirements of machines and industrial equipment.</p>
-            <div class="icon-circle">⚙</div>
-        </div>
+            <p>
+              Products developed around the practical requirements of machines
+              and industrial equipment.
+            </p>
+            <div class="icon-circle" aria-hidden="true">
+                <img src="./assests/Group 1.png" alt="">
+            </div>
+          </article>
 
-        <div class="card">
+          <article class="card">
             <h3>Quality as a Standard</h3>
-            <p>Our commitment to quality extends from product development to customer service.</p>
-            <div class="icon-circle">⚙</div>
+            <p>
+              Our commitment to quality extends from product development to
+              customer service.
+            </p>
+            <div class="icon-circle" aria-hidden="true">
+                <img src="./assests/Group 1.png" alt="">
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="industries-section" aria-labelledby="industries-heading">
+        <div class="industries-top">
+          <h2 id="industries-heading">
+            Designed for Machines.<br />Trusted Across Industries.
+          </h2>
+          <aside class="top-desc">
+            <div class="red-line" aria-hidden="true"></div>
+            <p>
+              Our products support the machines and systems that keep modern
+              manufacturing moving.
+            </p>
+          </aside>
         </div>
 
-    </div>
-
-</section>
-
-
-<section class="industries-section">
-
-    <div class="industries-top">
-
-        <h2>Designed for Machines.<br>Trusted Across Industries.</h2>
-
-        <div class="top-desc">
-            <div class="red-line"></div>
-            <p>Our products support the machines and systems that keep modern manufacturing moving.</p>
-        </div>
-
-    </div>
-
-    <div class="industries-list">
-
-        <div class="industry-row">
+        <ol class="industries-list">
+          <li class="industry-row">
             <span class="row-number">01</span>
             <h3 class="row-title">Machine Tools</h3>
-            <p class="row-desc">Precision sensing and positioning for machine-tool applications.</p>
-        </div>
-
-        <div class="industry-row">
+            <p class="row-desc">
+              Precision sensing and positioning for machine-tool applications.
+            </p>
+          </li>
+          <li class="industry-row">
             <span class="row-number">02</span>
             <h3 class="row-title">Industrial Automation</h3>
-            <p class="row-desc">Reliable detection and switching for automated processes.</p>
-        </div>
-
-        <div class="industry-row">
+            <p class="row-desc">
+              Reliable detection and switching for automated processes.
+            </p>
+          </li>
+          <li class="industry-row">
             <span class="row-number">03</span>
             <h3 class="row-title">Manufacturing Equipment</h3>
-            <p class="row-desc">Components designed for demanding production environments.</p>
-        </div>
-
-        <div class="industry-row">
+            <p class="row-desc">
+              Components designed for demanding production environments.
+            </p>
+          </li>
+          <li class="industry-row">
             <span class="row-number">04</span>
             <h3 class="row-title">Material Handling</h3>
-            <p class="row-desc">Sensing and switching solutions for movement, positioning and control.</p>
-        </div>
-
-        <div class="industry-row">
+            <p class="row-desc">
+              Sensing and switching solutions for movement, positioning and
+              control.
+            </p>
+          </li>
+          <li class="industry-row">
             <span class="row-number">05</span>
             <h3 class="row-title">Safety Applications</h3>
-            <p class="row-desc">Products designed to support machine safety and reliable control.</p>
-        </div>
-
-        <div class="industry-row">
+            <p class="row-desc">
+              Products designed to support machine safety and reliable control.
+            </p>
+          </li>
+          <li class="industry-row">
             <span class="row-number">06</span>
             <h3 class="row-title">Custom Industrial Applications</h3>
-            <p class="row-desc">Solutions selected around the specific requirements of your equipment.</p>
+            <p class="row-desc">
+              Solutions selected around the specific requirements of your
+              equipment.
+            </p>
+          </li>
+        </ol>
+      </section>
+      <section class="journey-section" aria-labelledby="journey-heading">
+
+    <div class="journey-top">
+
+        <h2 id="journey-heading">
+            German Know-How.<br>
+            Indian Manufacturing.<br>
+            Industrial Confidence.
+        </h2>
+
+        <div class="journey-description">
+
+            <div class="accent-line-red" aria-hidden="true"></div>
+
+            <p>
+                Teknic Euchner brings together the engineering heritage
+                of Euchner Germany with manufacturing and market
+                expertise in India.
+            </p>
+
+            <p>
+                Established in 1989, the company has grown with the
+                changing needs of Indian industry while remaining
+                focused on quality, precision and dependable control
+                solutions.
+            </p>
+
+        </div>
+
+    </div>
+
+  <div class="journey-image">
+    <img src="./assests/Component 10 (1).png" alt="Teknic Euchner manufacturing" class="slide ">
+    <img src="./assests/image12.png" alt="Teknic Euchner manufacturing" class="slide">
+    <img src="./assests/doctor.png" alt="Teknic Euchner manufacturing" class="slide">
+</div>
+
+    <div class="journey-cta">
+        <figure>
+            <picture>
+        <a href="#" class="journey-btn">LEARN ABOUT OUR JOURNEY</a>
+        </picture>
+        </figure>
+    </div>
+
+</section>
+<section class="quality-section" aria-labelledby="quality-heading">
+
+    <div class="quality-container">
+
+        <figure class="quality-image">
+            <img src="./assests/quality.png" alt="Close-up of a Teknic branded industrial component">
+        </figure>
+
+        <div class="quality-content">
+
+            <h2 id="quality-heading">
+                Quality Isn't an Inspection.<br>
+                It's a Commitment.
+            </h2>
+
+            <div class="accent-line-red" aria-hidden="true"></div>
+
+            <p>
+                For industrial components, quality is about more than
+                meeting a specification. It's about consistent
+                performance. It's about dependable operation. It's
+                about building components that customers can specify
+                with confidence.
+            </p>
+
+            <p>
+
+                At Teknic Euchner, quality is built into our approach
+                to product development, manufacturing and customer
+                service.
+            </p>
+
+            <a href="#" class="quality-btn">VIEW OUR QUALITY POLICY</a>
+
         </div>
 
     </div>
 
 </section>
+<section class="solution-section" aria-labelledby="solution-title">
+
+    <header class="solution-content">
+
+        <h2 id="solution-title">
+            Let’s Find the Right Solution<br>
+            for Your Application.
+        </h2>
+
+        <hr>
+
+        <p>
+            Find an authorised dealer near you and get connected with the right product
+            for your application. Whether you're designing a new machine, upgrading an
+            existing system or looking for a reliable replacement, our team can help you
+            identify the right control gear for your requirements.
+        </p>
+
+        <nav aria-label="Solution actions">
+            <a href="#" class="solution-btn btn-outline">
+                TALK TO AN EXPERT
+            </a>
+
+            <a href="#" class="solution-btn btn-red">
+                EXPLORE OUR PRODUCTS
+            </a>
+        </nav>
+
+    </header>
+
+</section>
+
+
+
+    <section class="dealer-cta-section" aria-labelledby="dealer-cta-heading" id="deal">
+
+    <h2 id="dealer-cta-heading">
+        Looking for Teknic Euchner<br>
+        Products?
+    </h2>
+
+    <aside class="dealer-cta-content">
+
+        <hr class="accent-line-orange" aria-hidden="true">
+
+        <p>
+            Find an authorised dealer near you and get connected
+            with the right product for your application.
+        </p>
+
+        <a href="#" class="dealer-btn">FIND A DEALER</a>
+
+    </aside>
+
+</section>
+
+
+  <footer class="site-footer" id="contact123">
+
+    <section class="footer-brand">
+        <p class="tagline">SENSE. SWITCH. CONTROL. PROTECT.</p>
+        <h2 class="footer-logo">Teknic <span>Euchner</span></h2>
+        <p class="footer-desc">
+            Industrial control gear engineered for reliable performance.
+        </p>
+    </section>
+
+    <nav class="footer-links" aria-label="Quick links">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Dealers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="footer-contact">
+        <h3>Contact</h3>
+        <address>
+            No.64, 5th Cross, Electronics City<br>Bengaluru 560 100<br>Karnataka, India.
+        </address>
+        <p><a href="tel:+918028522717">+91 80 28522717</a></p>
+        <p><a href="mailto:marketing@teknic-euchner.co.in">marketing@teknic-euchner.co.in</a></p>
+        <p><a href="https://www.teknic-euchner.co.in">www.teknic-euchner.co.in</a></p>
+    </section>
+
+    <section class="footer-social">
+        <h3>Follow Us</h3>
+    <ul class="image">
+    <li>
+        <a href="#" aria-label="Facebook">
+            <img src="./assests/facebook.png" alt="Facebook">
+        </a>
+    </li>
+    <li>
+        <a href="#" aria-label="LinkedIn">
+            <img src="./assests/linkdin.png" alt="LinkedIn">
+        </a>
+    </li>
+    <li>
+        <a href="#" aria-label="Instagram">
+            <img src="./assests/instagram.png" alt="Instagram">
+        </a>
+    </li>
+</ul>
+    </section>
+
+    <ul class="footer-bottom">
+        <li>© 2026 Teknic Euchner</li>
+        <li>Designed by Cojective</li>
+        <li><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a></li>
+    </ul>
+
+</footer>
+    </main>
+
     <script src="script.js"></script>
-
-</body>
-
+  </body>
 </html>
